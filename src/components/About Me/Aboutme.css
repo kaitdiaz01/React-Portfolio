@@ -7,6 +7,7 @@
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
+    padding: 40px;
   }
   
   /* The typing effect */
