@@ -1,0 +1,34 @@
+#p1 {
+    background-image: url('../../assets/find-a-flick.png');
+    background-size: cover;
+    width: 100%;
+    margin: 10px;
+    opacity: .8;
+    border-radius: 10px;
+    border: none;
+}
+
+#p1:hover {
+    opacity: 1;
+}
+
+#p2 {
+    background-image: url('../../assets/the-19th-hole.png');
+    background-size: cover;
+    width: 100%;
+    margin: 10px;
+    opacity: .8;
+    border-radius: 10px;
+}
+
+#p2:hover {
+    opacity: 1;
+}
+
+.btn {
+    margin-top: 80px;
+}
+
+#projects {
+    padding-bottom: 42px;
+}

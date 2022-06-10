@@ -1,38 +1,33 @@
-import React, { useState } from "react";
-import { Row, Col, Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button } from 'reactstrap';
-
+import React from "react";
+import { Row, Col, Card, CardText, CardBody, Button } from "reactstrap";
+import "./work.css";
 const Projects = (props) => {
   return (
-    <Row>
-        <Col>
-    <div>
-      <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
-  
-       
-
-    
-       <Card>
-         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-         <CardBody>
-           <CardTitle>Card title</CardTitle>
-           <CardSubtitle>Card subtitle</CardSubtitle>
-           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-           <Button>Button</Button>
-         </CardBody>
-       </Card>
-       </div>
-       </Col>
-       </Row>
-
+    <Row id="projects">
+      <h1>Projects</h1>
+      <Col xs="3" md={{ offset: 3 }}>
+        <Card style={{ width: "20rem", height: "20rem", border: "none" }}>
+          <CardBody id="p1">
+            <CardText></CardText>
+            <Button href="https://kaitdiaz01.github.io/Find-A-Flick/">
+              FIND-A-FLICK
+            </Button>
+          </CardBody>
+        </Card>
+      </Col>
+      <Col xs="3">
+        <Card style={{ width: "20rem", height: "20rem", border: "none" }}>
+          <image src="../../assets/find-a-flick.png" alt="Card image cap" />
+          <image />
+          <CardBody id="p2">
+            <CardText></CardText>
+            <Button href="https://github.com/kaitdiaz01/The-19th-Hole">
+              THE-19TH-HOLE
+            </Button>
+          </CardBody>
+        </Card>
+      </Col>
+    </Row>
   );
 };
 
